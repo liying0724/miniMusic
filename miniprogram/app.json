@@ -1,24 +1,40 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/getOpenId/index",
-    "pages/getMiniProgramCode/index",
-    "pages/deployService/index",
-    "pages/createCollection/index",
-    "pages/uploadFile/index",
-    "pages/selectRecord/index",
-    "pages/updateRecord/index",
-    "pages/updateRecordResult/index",
-    "pages/updateRecordSuccess/index",
-    "pages/sumRecord/index",
-    "pages/sumRecordResult/index"
+    "pages/playList/playList",
+    "pages/blog/blog",
+    "pages/profile/profile"
+    
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#d43c33",
+    "navigationBarTitleText": "云音乐",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#474747",
+    "selectedColor": "#d43c43",
+    "list": [
+      {
+      "pagePath": "pages/playList/playList",
+      "text": "音乐",
+      "iconPath": "images/music_unchoose.png",
+      "selectedIconPath": "images/music_choosed.png"
+    },
+    {
+      "pagePath": "pages/blog/blog",
+      "text": "发现",
+      "iconPath": "images/publish_no.png",
+      "selectedIconPath": "images/published.png"
+    },
+    {
+      "pagePath": "pages/profile/profile",
+      "text": "我的",
+      "iconPath": "images/un_profile.png",
+      "selectedIconPath": "images/profiled.png"
+    }
+  ]
   },
   "sitemapLocation": "sitemap.json",
   "style": "v2"
